@@ -29,7 +29,7 @@ public class MainActivity extends FragmentActivity {
 //				mPop.showAtLocation(MainActivity.this.findViewById(R.id.main),
 //						Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL, 0, 0); //设置layout在PopupWindow中显示的位置  
 				
-				mPopup = new PassValitationPopwindow(MainActivity.this,1,findViewById(R.id.main),new OnInputNumberCodeCallback() {
+				new PassValitationPopwindow(MainActivity.this,1,findViewById(R.id.main),new OnInputNumberCodeCallback() {
 					
 					@Override
 					public void onSuccess() {
